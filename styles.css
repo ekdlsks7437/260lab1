@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Product Sans Regular", "Arial Verdana";
+  text-decoration-line: none;
+  letter-spacing: 0.5px;
+}
+
+img {
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.banner {
+  background-color: #01b7ff;
+  height: 100px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.section {
+  display: grid;
+}
+
+.welcome {
+  width: 100%;
+  min-height: 600px;
+  background-color: #01b7ff;
+  display: table;
+}
+
+.welcome .welcome-child {
+  color: #fff;
+  margin-top: 7%;
+  padding-bottom: 40px;
+}
+
+.welcome .welcome-child .centered {
+  display: grid;
+  grid-template-columns: 1fr 260px;
+  grid-gap: 40px;
+}
+
+.centered {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.welcome-title {
+  max-width: 600px;
+}
+
+.title {
+  padding-bottom: 7px;
+}
+
+.welcome-title h4 {
+  padding-bottom: 7px;
+}
+
+.squar {
+  display: block;
+  width: 250px;
+  height: 347px;
+  border: 20px solid #fff;
+}
+
+.photo-zone {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.nature-photo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  margin: auto 0;
+}
+
+.footer {
+  background-color: #01b7ff;
+  height: 180px;
+  display: block;
+  color: #fff;
+}
+
+.footer .footer-title {
+  display: block;
+  max-width: 100%;
+  text-align: center;
+  color: #fff;
+  padding: 67px 0;
+}
+
+.footer .footer-title h2 {
+  max-width: 100%;
+  color: #fff;
+}

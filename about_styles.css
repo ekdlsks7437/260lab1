@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Product Sans Regular', 'Arial Verdana';
+  text-decoration-line: none;
+  letter-spacing: 0.5px;
+}
+
+img {
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+/*.div {
+  display: block;
+}*/
+.banner {
+  background-color: #01b7ff;
+  height: 100px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.section {
+  display: grid;
+}
+
+.welcome {
+  width: 100%;
+  min-height: 600px;
+  background-color: #01b7ff;
+  display: table;
+  margin-bottom: 200px;
+}
+
+.welcome .welcome-child {
+  color: #fff;
+  margin-top: 7%;
+  padding-bottom: 40px;
+}
+
+.welcome .welcome-child .centered {
+  display: grid;
+  grid-template-columns: 1fr 260px;
+  grid-gap: 40px;
+}
+
+.centered {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.welcome-title {
+  max-width: 600px;
+}
+
+.title {
+  padding-bottom: 7px;
+}
+
+.welcome-title h4 {
+  padding-bottom: 7px;
+}
+
+.squar {
+  display: block;
+  width: 250px;
+  /*height: 250px;*/
+  border: 20px solid #fff;
+  /*position: relative;
+  text-align: center;*/
+}
+
+.wrapper {
+  display: grid;
+  width: 1180px;
+  margin: 0 auto;
+  grid-template-columns: 1fr 2fr;
+  grid-auto-rows: minmax(400px, auto);
+  grid-gap: 50px;
+  margin-bottom: 200px;
+  /*border: 1px solid red;*/
+}
+
+.footer {
+  background-color: #01b7ff;
+  height: 180px;
+  display: block;
+}
+
+.footer .footer-title {
+  display: block;
+  max-width: 100%;
+  text-align: center;
+  padding: 67px 0;
+}
+
+.footer .footer-title h2 {
+  max-width: 100%;
+  color: #fff;
+}
